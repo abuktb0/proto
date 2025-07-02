@@ -28,7 +28,7 @@ const Left = () => {
         </p>
       </div>
       <div className="flex items-center justify-center gap-2 sm:gap-6 lg:items-start lg:justify-start">
-        <Button  icon={FaFile} text="Download cv" type={"solid"} />
+        <Button href={"../../files/CV-Youssef-louza.pdf"}  icon={FaFile} text="Download cv" type={"solid"} />
         <Button href={contactBarData[1].link} icon={FaGithub} text="Visit Github" onClick={() => console.log(first)} />
       </div>
     </div>
