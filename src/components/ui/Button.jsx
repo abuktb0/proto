@@ -6,7 +6,7 @@ const Button = ({ type, icon, href, text }) => {
 
   return (
     <a
-    download
+    download="CV-Youssef-louza.pdf"
       target="_blank"
       href={href}
       className={`cursor-pointer px-5 py-2 gap-2 font-semibold flex justify-center text-sm lg:text-base items-center rounded ${
