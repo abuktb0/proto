@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0F0F0F;
+  --color-lavender: #7456FF;
+}
+:root{
+  @apply text-white  bg-[#101010]
+}
+.paddingX {
+  @apply px-4 lg:px-24
+}
+.text-stroke-3 {
+    -webkit-text-stroke: 1px white;
+    
+}
+/* bg-linear-to-br from-[#0F0F0F] to-[#757575] bg-no-repeat */
